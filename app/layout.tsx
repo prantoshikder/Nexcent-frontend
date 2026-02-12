@@ -1,7 +1,9 @@
-import LayoutManager from "@/src/layouts/LayoutManager";
+import LayoutManager from "@/layouts/LayoutManager";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
+
 import "../scss/globals.css";
+import "../scss/main.scss";
 
 const roboto = Roboto({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
