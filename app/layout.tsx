@@ -1,3 +1,4 @@
+import LayoutManager from "@/src/layouts/LayoutManager";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "../scss/globals.css";
@@ -22,7 +23,7 @@ export default function RootLayout({
         className={`${roboto.className} antialiased`}
         suppressHydrationWarning
       >
-        {children}
+        <LayoutManager>{children}</LayoutManager>
       </body>
     </html>
   );
