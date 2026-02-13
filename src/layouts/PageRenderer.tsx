@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/set-state-in-effect */
 "use client";
 
+import Footer from "@/components/partials/Footer";
 import Header from "@/components/partials/Header";
 import Loader from "@/components/shared/Loader";
 import React, { useEffect, useState } from "react";
@@ -25,6 +26,7 @@ export default function PageRenderer({
         <>
           <Header />
           {children}
+          <Footer />
         </>
       )}
     </>

@@ -1,0 +1,5 @@
+/* Ant Design Input Placeholder Global Fix */
+.ant-input::placeholder {
+  color: inherit !important;
+  opacity: 1;
+}
