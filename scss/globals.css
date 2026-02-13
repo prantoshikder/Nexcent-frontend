@@ -1,7 +1,9 @@
+@layer theme, base, antd, components, utilities;
+
 @import "tailwindcss";
 
 :root {
-  --background: red;
+  --background: #fff;
   --foreground: #171717;
 }
 

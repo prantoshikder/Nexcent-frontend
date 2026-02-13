@@ -1,3 +1,6 @@
+"use client";
+
+import { StyleProvider } from "@ant-design/cssinjs";
 import React from "react";
 import PageRenderer from "./PageRenderer";
 
@@ -6,5 +9,9 @@ export default function LayoutManager({
 }: {
   children: React.ReactNode;
 }) {
-  return <PageRenderer>{children}</PageRenderer>;
+  return (
+    <StyleProvider layer>
+      <PageRenderer>{children}</PageRenderer>
+    </StyleProvider>
+  );
 }
