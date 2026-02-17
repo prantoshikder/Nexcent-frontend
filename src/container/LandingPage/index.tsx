@@ -1,11 +1,12 @@
 "use client";
 
+import DesignIntro from "@/components/DesignIntro";
 import { Button, Flex, Typography } from "antd";
 
 export default function LandingPage() {
   return (
     <div>
-      <p>LandingPage</p>
+      <DesignIntro />
 
       <Flex vertical align="center" gap={20} className="py-10">
         <Typography.Title
